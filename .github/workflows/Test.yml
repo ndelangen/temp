@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: chromaui/action-canary@main
+    - uses: chromaui/action-canary@master
       with: 
         token: ${{ secrets.GITHUB_TOKEN }}
         projectToken: 5oy3iw6rkio
