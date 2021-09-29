@@ -1,5 +1,5 @@
 ---
-name: Test
+name: "Chromatic (workflow_run)"
 
 on:
   workflow_run:
@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: chromaui/action-canary@master
-      with: 
+      with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        projectToken: 5oy3iw6rkio
-        storybookBuildDir: storybook-static
+        projectToken: gcaw1ai2dgo
+        storybookBuildDir: 'storybook-static'
