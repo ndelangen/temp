@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ndelangen/temp/issues"
   },
-  "homepage": "https://github.com/ndelangen/temp#readme"
+  "homepage": "https://github.com/ndelangen/temp#readme",
+  "dependencies": {
+    "@storybook/react": "^6.3.8"
+  }
 }
