@@ -1,0 +1,20 @@
+{
+  "name": "ithub-actions-workflow_run-event",
+  "version": "1.0.0",
+  "description": "This repository contains a code example to accompany my answer to the question [_\"How to use the GitHub Actions `workflow_run`  event?\"_](https://stackoverflow.com/questions/63343937/how-to-use-the-new-event-workflow-run-of-gtihub-action-added-recently/), asked on StackOverflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndelangen/temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndelangen/temp/issues"
+  },
+  "homepage": "https://github.com/ndelangen/temp#readme"
+}
