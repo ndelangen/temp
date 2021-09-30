@@ -19,5 +19,6 @@
   "homepage": "https://github.com/ndelangen/temp#readme",
   "dependencies": {
     "@storybook/react": "^6.3.8"
-  }
+  },
+  "packageManager": "yarn@3.0.2"
 }
