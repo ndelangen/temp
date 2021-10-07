@@ -1,13 +1,19 @@
-name: "Chromatic (push)"
-on: [push]
+---
+name: "Chromatic (workflow_run-canary)"
+
+on:
+  workflow_run:
+    workflows:
+      - Preflight
+    types:
+      - completed
 
 jobs:
-  chromatic:
+  self-test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - run: yarn
-    - uses: chromaui/action@v1
+    - uses: chromaui/action-canary@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         projectToken: gcaw1ai2dgo

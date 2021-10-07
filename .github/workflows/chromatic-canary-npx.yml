@@ -1,4 +1,4 @@
-name: "Chromatic (push)"
+name: "Chromatic (npx-canary)"
 on: [push]
 
 jobs:

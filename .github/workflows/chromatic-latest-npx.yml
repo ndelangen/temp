@@ -1,0 +1,10 @@
+name: "Chromatic (npx-latest)"
+on: [push]
+
+jobs:
+  chromatic:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: yarn
+    - run: npx -p chromatic@latest chromatic --project-token gcaw1ai2dgo --storybook-build-dir="storybook-static"

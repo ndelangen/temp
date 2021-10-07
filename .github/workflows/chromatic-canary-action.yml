@@ -1,0 +1,14 @@
+name: "Chromatic (action-canary)"
+on: [push]
+
+jobs:
+  chromatic:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: yarn
+    - uses: chromaui/action-canary@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        projectToken: gcaw1ai2dgo
+        storybookBuildDir: 'storybook-static'
