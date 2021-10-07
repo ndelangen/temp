@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/ndelangen/temp#readme",
   "dependencies": {
-    "@storybook/react": "^6.3.8"
+    "@storybook/react": "^6.3.8",
+    "@storybook/vue": "^6.3.8",
+    "@storybook/ember": "^6.3.8",
+    "@storybook/html": "^6.3.8"
   },
   "packageManager": "yarn@3.0.2"
 }
