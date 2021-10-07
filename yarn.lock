@@ -1799,9 +1799,9 @@ __metadata:
   linkType: hard
 
 "@popperjs/core@npm:^2.5.4, @popperjs/core@npm:^2.6.0":
-  version: 2.10.1
-  resolution: "@popperjs/core@npm:2.10.1"
-  checksum: 55262eb98984a03364a844177a9d4b9ab1c6e3503eaa1ecb086c028b5b6d93985a92b5b5783008962633015fc9f0232fda3ce88f5b17930a909a633387a06505
+  version: 2.10.2
+  resolution: "@popperjs/core@npm:2.10.2"
+  checksum: 43c189e3eb6d032433512d94761b54fc7cae15957ca5528008813f887a67b5760b949f30a5141b476be2ba5a6c677c91def150f603d2d3e30b5e97a5ae51474e
   languageName: node
   linkType: hard
 
@@ -2701,13 +2701,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*":
-  version: 17.0.25
-  resolution: "@types/react@npm:17.0.25"
+  version: 17.0.26
+  resolution: "@types/react@npm:17.0.26"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: a5838a943e73c7ab2c188a6e16918d3120ca04e52f03d98d68dd1fe019503c301b1b3fbac0b6330be2b7d4ffba6e227fe43a0a2e716fe9f79000d5e43308039a
+  checksum: 943fe7e912ea6d664910fb9391a96d8f31c985265fb768d448461123dd970080494b7987a9bd54ca664c8675cb09680c8763823ff18622222e302c8d121b7d31
   languageName: node
   linkType: hard
 
